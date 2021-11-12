@@ -30,13 +30,19 @@ and the other for user administration.
 ### Endpoints of users
 
 **GET** .../user
+
 **GET** .../user/**:id**
+
 **POST** .../user/register
+
 **PUT** .../user/**:id**
+
 **DELETE** .../user/**:id**
 
 ## Endpoints for authentication (Login)
 
 **POST** ...:5000/account/login
+
 **GET** ...:5000/account/auth
+
 **GET** ...:5000/account/logout
